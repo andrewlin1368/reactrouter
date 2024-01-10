@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,50 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+.blue {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+.red {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.grey {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+}
+
+.home {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: black;
 }
